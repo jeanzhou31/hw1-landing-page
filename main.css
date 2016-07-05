@@ -229,6 +229,8 @@ input[type=checkbox].hidden{
 }
 
 
+/* iphone media query sizes taken from: stephen.io/mediaqueries/ */
+
 @media
   only screen and (max-width: 640px),
   only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -321,6 +323,11 @@ input[type=checkbox].hidden{
 
   .bot-container {
     font-size: 25px;
+  }
+
+  .bot-item {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* checkbox actions */

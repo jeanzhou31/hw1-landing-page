@@ -40,7 +40,7 @@ But the only thing I could not get to work perfectly was loading the page on my 
 I had to add the following media query code to get the smaller version to load on my iPhone:
 
 ```only screen and (min-device-width: 320px) and (max-device-width: 568px)```
+(code taken from [stephen.io/mediaqueries](stephen.io/mediaqueries))
 
- 
 Yet still, the layout is a bit off, and I'm at a loss as to what the discrepancy is. I am wondering if this is due to my iPhone version, 5S.
 
