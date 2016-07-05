@@ -1,0 +1,204 @@
+<!-- CS52 Lab1, by Jean Zhou -->
+<!-- background image taken from: http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg -->
+<!--checkbox trick taken from: https://css-tricks.com/the-checkbox-hack/-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Lab 1</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cormorant+Garamond|Lobster|Suez+One" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main-container">
+    <div class="main-item">
+      <nav class="nav-container">
+        <div class="nav-item">
+          <a href="#">>_CS52</a>
+        </div>
+        <div class="nav-item">
+          <ul class="nav-ul">
+            <li class="nav-li">
+              <a href="#">Product</a>
+            </li>
+            <li class="nav-li">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="nav-li">
+              <a href="#">Support</a>
+            </li>
+            <li class="nav-li" id="signin">
+              <a href="#">Sign in</a>
+            </li>
+            <li id="nav-menu">
+              <label for="toggle-menu">Menu</label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <input type="checkbox" class="hidden" id="toggle-menu">
+      <div class="menu-toggle">
+          <nav class="nav-container">
+            <div class="nav-item">
+              <a href="#">>_CS52</a>
+            </div>
+            <div class="nav-item">
+               <div id="nav-exit">
+                 <label for="toggle-menu">Exit</label>
+               </div>
+            </div>
+          </nav>
+          <ul class="menu-ul">
+            <li class="menu-li"><a href="#">Product</a></li>
+            <li class="menu-li"><a href="#">Pricing</a></li>
+            <li class="menu-li"><a href="#">Support</a></li>
+            <li class="menu-li"><a href="#">Sign in</a></li>
+          </ul>
+      </div>
+
+    </div>
+    <div class="main-item">
+      <div class="mid-container">
+        <div class="mid-item">
+          <h1>A <i>landing page</i> by <i>Jean Zhou</i></h1>
+          <p>Created for HW1 of CS52!</p>
+          <div class="input-box">
+            <input id="mid-input" type="text" name="email" placeholder="Email address">
+            <button id="mid-button" type="button">Create</button>
+              <p>enter your email address above!</p>
+            <br>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="main-item">
+      <div class="link-container">
+        <div class="link-item">
+          <ul class="link-ul">
+            <div class="link-mobile">
+              <li class="link-head">Link heading</li>
+              <label for="toggle-link1" class="plus">+</label>
+            </div>
+            <input type="checkbox" class="hidden" id="toggle-link1">
+            <li class="link-li">
+              <a href="#">link 1</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 2</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 3</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 4</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 5</a>
+            </li>
+          </ul>
+        </div>
+        <div class="link-item">
+          <ul class="link-ul">
+            <div class="link-mobile">
+              <li class="link-head">Link heading</li>
+              <label for="toggle-link2" class="plus">+</label>
+            </div>
+            <input type="checkbox" class="hidden" id="toggle-link2">
+            <li class="link-li">
+              <a href="#">link 1</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 2</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 3</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 4</a></li>
+            <li class="link-li">
+              <a href="#">link 5</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-item">
+          <ul class="link-ul">
+            <div class="link-mobile">
+              <li class="link-head">Link heading</li>
+              <label for="toggle-link3" class="plus">+</label>
+            </div>
+            <input type="checkbox" class="hidden" id="toggle-link3">
+            <li class="link-li">
+              <a href="#">link 1</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 2</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 3</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 4</a></li>
+            <li class="link-li">
+              <a href="#">link 5</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-item">
+          <ul class="link-ul">
+            <div class="link-mobile">
+              <li class="link-head">Link heading</li>
+              <label for="toggle-link4" class="plus">+</label>
+            </div>
+            <input type="checkbox" class="hidden" id="toggle-link4">
+            <li class="link-li">
+              <a href="#">link 1</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 2</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 3</a>
+            </li>
+            <li class="link-li">
+              <a href="#">link 4</a></li>
+            <li class="link-li">
+              <a href="#">link 5</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="bot-container">
+        <div class="bot-item">
+          <a href="#">>_</a>
+        </div>
+        <div class="bot-item">
+          <ul class="bot-ul">
+            <li class="bot-li">
+              <a href="#">Contact</a>
+            </li>
+            <li class="bot-li">
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="bot-li">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
