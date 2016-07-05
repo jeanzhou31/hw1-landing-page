@@ -59,6 +59,7 @@ a {
   justify-content: space-between;
   font-family: 'Suez One', serif;
   font-size: 20px;
+  padding: 10px;
 }
 
 .nav-item {
@@ -83,16 +84,29 @@ a {
   background-color: rgba(255, 255, 255, .5)
 }
 
+.menu-li{
+  font-family: 'Suez One', serif;
+}
+
 .mid-container{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .mid-item {
+  align-self: center;
   text-align: center;
   padding: 10px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.support-item{
+  align-self: flex-end;
+  width: 200px;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 20px;
+  text-align: left;
 }
 
 .link-container{
@@ -251,6 +265,10 @@ input[type=checkbox].hidden{
     color: white;
     background-color: green;
     border: none;
+  }
+
+  .support-item{
+    display: none;
   }
 
   .link-container {
