@@ -209,6 +209,7 @@ input[type=checkbox].hidden{
   only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 
   .nav-container{
+    justify-content: space-around;
     font-size: 40px;
   }
   .nav-li {
@@ -276,7 +277,7 @@ input[type=checkbox].hidden{
 
   .link-mobile{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 30px;
     border-top-style: dashed;
     border-top-color: rgba(255, 255, 255, .5);
