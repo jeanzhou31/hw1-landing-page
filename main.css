@@ -46,6 +46,7 @@ a {
   color: gray;
 }
 
+/* style for main */
 
 .main-container{
   display: flex;
@@ -53,6 +54,8 @@ a {
   justify-content: space-between;
   min-height: 100vh;
 }
+
+/* style for nav area */
 
 .nav-container {
   display: flex;
@@ -84,9 +87,11 @@ a {
   background-color: rgba(255, 255, 255, .5)
 }
 
-.menu-li{
-  font-family: 'Suez One', serif;
+#signin {
+  border-style: solid;
 }
+
+/* style for mid area */
 
 .mid-container{
   display: flex;
@@ -109,6 +114,34 @@ a {
   text-align: left;
 }
 
+.input-box {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+#mid-input {
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#mid-button {
+  width: 150px;
+  font-size: 30px;
+  padding: 10px;
+  margin-right: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
+
+/* style for link area */
+
 .link-container{
   padding-left: 100px;
   padding-right: 100px;
@@ -126,6 +159,8 @@ a {
   margin: 0;
   padding: 0;
 }
+
+/* style for bottom area */
 
 .bot-container{
   display: flex;
@@ -151,13 +186,14 @@ a {
   padding: 5px;
 }
 
-.input-box {
-  border-radius: 10px;
-  background: rgba(0,0,0,0.5);
-}
+/* style for mobile menu */
 
 input[type=checkbox].hidden{
   display: none;
+}
+
+.menu-li{
+  font-family: 'Suez One', serif;
 }
 
 .menu-toggle{
@@ -165,31 +201,6 @@ input[type=checkbox].hidden{
   height: 0px;
   position: relative;
   z-index: -1;
-}
-
-#mid-input {
-    width: 300px;
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 10px;
-    border-style: none;
-}
-
-#mid-button {
-  width: 150px;
-  font-size: 30px;
-  padding: 10px;
-  margin-right: 20px;
-  color: white;
-  background-color: green;
-  border: none;
-  border-radius: 10px;
-}
-
-#signin {
-  border-style: solid;
 }
 
 #nav-menu{
@@ -222,6 +233,8 @@ input[type=checkbox].hidden{
   only screen and (max-width: 640px),
   only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 
+  /* style for nav + menu */
+
   .nav-container{
     justify-content: space-around;
     font-size: 40px;
@@ -237,6 +250,8 @@ input[type=checkbox].hidden{
     border-radius: 10px;
     border-style: solid;
   }
+
+  /* style for mid area */
 
   .mid-container, .mid-item, .input-box {
     margin: 0;
@@ -271,6 +286,8 @@ input[type=checkbox].hidden{
     display: none;
   }
 
+  /* style for link area */
+
   .link-container {
     flex-direction: column;
     padding: 20px;
@@ -300,9 +317,13 @@ input[type=checkbox].hidden{
     border-top-color: rgba(255, 255, 255, .5);
   }
 
+  /* style for bottom area */
+
   .bot-container {
     font-size: 25px;
   }
+
+  /* checkbox actions */
 
   #toggle-menu:checked ~ div {
     opacity: 1;
