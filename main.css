@@ -149,7 +149,7 @@ input[type=checkbox].hidden{
 .menu-toggle{
   opacity: 0;
   height: 0px;
-  position:relative;
+  position: relative;
   z-index: -1;
 }
 
@@ -186,7 +186,7 @@ input[type=checkbox].hidden{
   list-style: none;
   margin: 0;
   padding: 0;
-  position:relative;
+  position: relative;
   z-index: -1;
 }
 
@@ -195,12 +195,12 @@ input[type=checkbox].hidden{
   padding: 50px;
   color: white;
   border-radius: 10px;
-  position:relative;
+  position: relative;
   z-index: -1;
 }
 
 .plus {
-  display:none;
+  display: none;
 }
 
 
@@ -225,15 +225,14 @@ input[type=checkbox].hidden{
   }
 
   .mid-container, .mid-item, .input-box {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
 
   .input-box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index:5;
   }
 
   #mid-input {
@@ -338,7 +337,7 @@ input[type=checkbox].hidden{
   }
 
   .plus{
-    display:inline;
+    display: inline;
     font-size: 30px;
   }
 
